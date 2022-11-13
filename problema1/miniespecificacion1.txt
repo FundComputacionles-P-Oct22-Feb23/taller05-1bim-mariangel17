@@ -1,0 +1,20 @@
+1.Inicio 
+2.costo_kilowatio,d[0-n]
+3.kilowato_numero,d[0-n]
+4.costo_planilla,d[0-n]
+5.edad,i[0-n]
+6.valor_descuento,d[0-n]←10
+7.<< "Ingrese el costo kw/hora"
+8.>> costo_kilowatio
+9.<< "Numero de kilowatios/mes"
+10.>> kilowatio_numero
+11.<< "Ingrese edad del usuario"
+12.>> edad
+13.costo_planilla←costo_kilowatio*kilowatio_numero
+14.Si edad > 65 entonces
+15. valor_descuento←costo_planilla*0.10
+16.costo_planilla←costo_planilla-valor_descuento
+17.FinSi
+18.<< "El valor a cancelar es"+ costo_planilla
+19.Fin
+

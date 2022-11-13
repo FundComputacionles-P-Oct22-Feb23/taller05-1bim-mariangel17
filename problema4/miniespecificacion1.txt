@@ -1,0 +1,25 @@
+1.Inicio
+2.numero_Dias,i[0-n]
+3.precio_Diario,d[0-n] 
+4.subtotal,d[0-n]
+5.total_Pagar,d[0-n]
+6.descuento,d[0-n]
+7.<<"Ingrese el numero de dias"
+8.>> numero_Dias
+9.<<"Ingrese el precio_Diario"
+10.>> precio_Diario
+11.subtotal ← numero_Dias * precio_Diario
+12.Si numero_Dias > 5 entonces
+13.descuento ← subtotal * 0.10
+14.FinSi
+15.Si numero_Dias > 10 entonces
+16.descuento ← subtotal * 0.15
+17.FinSi
+18.Si numero_Dias > 15 entonces
+19.descuento ← subtotal * 0.20
+20.FinSi
+21.total_Pagar← subtotal - descuento
+22.<<"El subtotal a pagar:" + subtotal
+23.<<"El total a pagar:" + total
+24.<<"El descuento:" + descuento
+25.Fin

@@ -1,0 +1,19 @@
+1.Inicio
+2.cantidad,i[0-n]
+3.precio_Unitario, d[0-n]
+4.descripcion, x
+5.total_Pagar,d[0-n]
+6.descuento,d[0-n]
+7.<<"Ingrese la descripcion del producto"
+8.>> descripcion
+9.<<"Ingrese el precio_Unitario"
+10.>> precio_Unitario
+11.<<"Ingrese cantidad del producto "
+12.>> cantidad
+13.total_Pagar ← cantidad * precio_Unitario
+14.Si cantidad > 50 entonces
+15.descuento ← total_Pagar * 0.15
+16.FinSi
+17.total_Pagar ← total_Pagar - descuento
+18.<<"El valor a pagar es:" + total_Pagar
+19.Fin

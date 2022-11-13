@@ -1,0 +1,13 @@
+1.Inicio
+2.grados_Centigrados,d[0-n],
+3.grados_Farenheit,d[0-n]
+4.grados_Kelvin,d[0-n]
+5.<<"Ingrese los grados centigrados"
+6.>> grados_Centigrados
+7. Si grados_Centigrados >=0 and <=100
+8. grados_Kelvin ← grados_Centigrados + 273.15
+9. grados_Farenheit ← grados_Centigrados * (9/5) + 32
+10.FinSi
+11.<< "Los grados de centigrados a kelvin es:" + grados_Kelvin
+12.<< "Los grados de centigrados a farenheit es:" + grados_Farenheit
+13.Fin 

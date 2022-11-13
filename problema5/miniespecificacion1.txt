@@ -1,0 +1,39 @@
+Algoritmo:
+1.Inicio
+2.Se pide la edad 
+3.Se pide el valor de minutos gastados en el mes
+4.Se pide el numero de litros de agua
+5.Se pide el costo por minuto
+6.Se pide el costo por litros
+7.Se calcula el descuento si la persona es menos a 20 años 
+8.Se calcula el total a pagar 
+9.Se presenta el total a pagar 
+10.Fin
+
+Miniespecificacion:
+1.Inicio
+2.edad,i[0-n]
+3.valor_Total,d[0-n]
+4.descuento,d[0-n]
+5.minutos_Telefono, d[0-n]
+6.litros_Agua, d[0-n]
+7.costo_Agua,d[0-n]
+8.costo_Minutos,d[0-n]
+9.subtotal,d[0-n]
+10.<<"Ingrese la edad"
+11.>>edad
+12.<<"Ingrese el valor de los minutos gastados en el mes"
+13:>> minutos_Telefono
+14.<<"Ingrese el numero de litros de agua"
+15.>> litros_Agua
+16.<<"Ingrese el costo del agua"
+17.>> costo_Agua
+18.<<"Ingrese el costo de los minutos"
+19.>> costo_Minutos
+20. subtotal ← costo_Agua * litros_Agua + costo_Minutos * minutos_Telefono
+22.Si edad < 20 entonces
+23. descuento ← subtotal * 0.20
+24.FinSi
+25.valor_Total ← subtotal - descuento 
+26.<<"El valor total a pagar mensual es:" + valor_Total
+27.Fin
